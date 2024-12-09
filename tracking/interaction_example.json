@@ -1,0 +1,73 @@
+{
+  "session_id": "sess_2024021512345",
+  "user_info": {
+    "name": "João Silva",
+    "email": "joao@empresa.com",
+    "company": "Empresa XYZ",
+    "first_access": "2024-02-15T12:30:45.123Z",
+    "last_access": "2024-02-15T13:45:22.456Z"
+  },
+  "interactions": {
+    "buttons": {
+      "start-journey-btn": {
+        "clicks": [
+          {
+            "timestamp": "2024-02-15T12:31:15.789Z",
+            "interaction_type": "click",
+            "element_state": "enabled"
+          }
+        ],
+        "last_interaction": "2024-02-15T12:31:15.789Z"
+      },
+      "conteudos-ia-btn": {
+        "clicks": [
+          {
+            "timestamp": "2024-02-15T12:35:22.123Z",
+            "interaction_type": "click",
+            "element_state": "enabled"
+          }
+        ],
+        "last_interaction": "2024-02-15T12:35:22.123Z"
+      }
+    },
+    "links": {
+      "era-ia-link": {
+        "clicks": [
+          {
+            "timestamp": "2024-02-15T12:40:18.456Z",
+            "interaction_type": "click",
+            "target_url": "https://genai.knowfuture.tech/genai"
+          }
+        ],
+        "last_interaction": "2024-02-15T12:40:18.456Z"
+      }
+    },
+    "form_inputs": {
+      "user-name-input": {
+        "interactions": [
+          {
+            "timestamp": "2024-02-15T12:32:10.234Z",
+            "interaction_type": "focus",
+            "input_length": 10
+          }
+        ],
+        "last_interaction": "2024-02-15T12:32:10.234Z"
+      }
+    }
+  },
+  "metrics": {
+    "total_session_time": "01:14:37",
+    "total_interactions": 4,
+    "most_clicked_button": "conteudos-ia-btn",
+    "most_visited_link": "era-ia-link",
+    "average_time_between_clicks": "00:03:45",
+    "session_start": "2024-02-15T12:30:45.123Z",
+    "session_end": "2024-02-15T13:45:22.456Z",
+    "device_info": {
+      "device_type": "desktop",
+      "browser": "Chrome 121.0.0",
+      "os": "Windows 11",
+      "screen_resolution": "1920x1080"
+    }
+  }
+} 

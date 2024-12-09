@@ -1,0 +1,97 @@
+{
+  "session_id": "",
+  "user_info": {
+    "name": "",
+    "email": "",
+    "company": "",
+    "first_access": "",
+    "last_access": ""
+  },
+  "interactions": {
+    "buttons": {
+      "start-journey-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "conteudos-ia-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "ajuda-dani-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "modal-back-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "modal-continue-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "submit-user-form-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "scroll-bottom-btn": {
+        "clicks": [],
+        "last_interaction": ""
+      }
+    },
+    "links": {
+      "era-ia-link": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "mitos-verdades-link": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "empresa-ia-link": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "transforme-futuro-link": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "logistica-ia-link": {
+        "clicks": [],
+        "last_interaction": ""
+      },
+      "implemente-ia-link": {
+        "clicks": [],
+        "last_interaction": ""
+      }
+    },
+    "form_inputs": {
+      "user-name-input": {
+        "interactions": [],
+        "last_interaction": ""
+      },
+      "user-email-input": {
+        "interactions": [],
+        "last_interaction": ""
+      },
+      "user-company-input": {
+        "interactions": [],
+        "last_interaction": ""
+      }
+    }
+  },
+  "metrics": {
+    "total_session_time": "",
+    "total_interactions": 0,
+    "most_clicked_button": "",
+    "most_visited_link": "",
+    "average_time_between_clicks": "",
+    "session_start": "",
+    "session_end": "",
+    "device_info": {
+      "device_type": "",
+      "browser": "",
+      "os": "",
+      "screen_resolution": ""
+    }
+  }
+} 

@@ -7,27 +7,38 @@ body, html {
 
 /* Animação de bounce para os indicadores de digitação */
 @keyframes bounce {
-    0%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-10px); }
-  }
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+}
 
 
-  /* Estilização dos indicadores de digitação (3 pontos animados) */
+/* Estilização dos indicadores de digitação (3 pontos animados) */
 .typing-indicator span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #3B82F6;
-    border-radius: 50%;
-    margin: 0 2px;
-    animation: bounce 1.4s infinite ease-in-out;
-  }
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #3B82F6;
+  border-radius: 50%;
+  margin: 0 2px;
+  animation: bounce 1.4s infinite ease-in-out;
+}
 
 
 /* Atrasos na animação para cada ponto do indicador de digitação */
 .typing-indicator span:nth-child(1) { animation-delay: 0s; }
 .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
 .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+
+/* Animação de piscar para o indicador de digitação */
+@keyframes blink {
+  0%, 100% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-60%);
+  }
+}
 
 
 /* Estilização do avatar dos personagens */    
@@ -92,7 +103,7 @@ body, html {
 }
 
 .scroll-arrow-button {
-  background-color: #01060f;
+  background-color: #808080;
   color: white;
   width: 40px;
   height: 40px;
@@ -107,7 +118,7 @@ body, html {
 }
 
 .scroll-arrow-button:hover {
-  background-color: #636060;
+  background-color: #000000;
   transform: scale(1.1);
 }
 
@@ -118,18 +129,11 @@ body, html {
 .scroll-arrow-button svg {
   width: 20px;
   height: 20px;
-  stroke-width: 3;
+  stroke-width: 4;
+  stroke: white;
 }
 
 
-@keyframes blink {
-  0%, 100% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(-60%);
-  }
-}
 
 /* Estilo dos balões de diálogo */
 .character-question {
@@ -204,3 +208,21 @@ body, html {
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+
+
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: translateY(0); 
+  }
+  50% { 
+    transform: translateY(-4px); 
+  }
+}
+
+
+
+* {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
