@@ -120,11 +120,64 @@ const HelpModal = ({ showHelpModal, setShowHelpModal, CHARACTERS, setIsTyping, a
                               React.createElement('span', { key: "text-3" }, " e poderá "),
                               React.createElement('strong', { key: "strong-3" }, "testar suas habilidades ferramentas feitas por IA em:"),
                               React.createElement('br', { key: "br-1" }),
-                              React.createElement('span', { key: "text-4" }, "(i) INOVAÇÃO"),
+                              React.createElement('div', {
+                                key: "text-4",
+                                className: "flex items-center gap-2"
+                              }, [
+                                React.createElement('span', {
+                                  key: "inovacao-text",
+                                  className: "text-gray-700"
+                                }, "1. INOVAÇÃO"),
+                                React.createElement(
+                                  'button',
+                                  {
+                                    key: "inovacao-button",
+                                    className: "border-2 border-gray-400 bg-gray-100 text-gray-400 font-medium py-1 px-3 rounded-lg text-left cursor-not-allowed",
+                                    disabled: true,
+                                    title: "Em desenvolvimento"
+                                  },
+                                  "em produção"
+                                )
+                              ]),
                               React.createElement('br', { key: "br-2" }),
-                              React.createElement('span', { key: "text-5" }, "(ii) AMBIDESTRIA e"), 
+                              React.createElement('div', {
+                                key: "text-5",
+                                className: "flex items-center gap-2"
+                              }, [
+                                React.createElement('span', {
+                                  key: "ambidestria-text",
+                                  className: "text-gray-700"
+                                }, "2. AMBIDESTRIA"),
+                                React.createElement(
+                                  'button',
+                                  {
+                                    key: "ambidestria-button",
+                                    className: "border-2 border-black bg-transparent text-gray-700 font-medium py-1 px-3 rounded-lg text-left transition-colors duration-200 hover:bg-gray-100",
+                                    onClick: () => window.open("https://arbachegit.github.io/ambidestriaInova/", "_blank")
+                                  },
+                                  "Teste de ambidestria"
+                                )
+                              ]),
                               React.createElement('br', { key: "br-3" }),
-                              React.createElement('span', { key: "text-6" }, "(iii) IA")
+                              React.createElement('div', {
+                                key: "text-6",
+                                className: "flex items-center gap-2"
+                              }, [
+                                React.createElement('span', {
+                                  key: "ia-text",
+                                  className: "text-gray-700"
+                                }, "3. IA"),
+                                React.createElement(
+                                  'button',
+                                  {
+                                    key: "ia-button",
+                                    className: "border-2 border-gray-400 bg-gray-100 text-gray-400 font-medium py-1 px-3 rounded-lg text-left cursor-not-allowed",
+                                    disabled: true,
+                                    title: "Em desenvolvimento"
+                                  },
+                                  "em produção"
+                                )
+                              ])
                             ]
                           )
                         );
